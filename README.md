@@ -1,16 +1,18 @@
-# Projeto Rural – Apresentação
+# Sistema Agrícola – Apresentação
 
-Este repositório tem como objetivo apresentar as tecnologias, arquitetura e diferenciais do sistema **Projeto Rural**, composto por dois projetos privados: um backend desenvolvido em Python e um frontend em Flutter (Dart). O sistema é destinado a aplicações rurais, focando em eficiência, escalabilidade e integração de dados.
+Este repositório tem como objetivo apresentar as tecnologias, arquitetura e diferenciais do sistema **Sistema Agrícola**, composto por dois projetos privados: um backend desenvolvido em Python e um frontend em Flutter (Dart). O projeto é uma recriação do trabalho de TCC sobre um sistema de irrigação automatizado baseado em dados meteorológicos.
 
 ## Visão Geral do Sistema
 
-O **Projeto Rural** é uma solução completa para gerenciamento de atividades agrícolas, incluindo monitoramento de plantações, controle de estoque e relatórios automatizados. Ele combina um backend robusto em Python para processamento de dados e lógica de negócio com um frontend moderno em Flutter para interfaces móveis e web responsivas.
+O **Sistema Agrícola** é uma solução para irrigação automatizada utilizando dados meteorológicos. Ele combina um backend robusto em Python para processamento de dados e APIs de coleta de informações meteorológicas com um frontend moderno em Flutter para interfaces móveis e web responsivas.
 
 ### Principais Funcionalidades
-- **Monitoramento em Tempo Real**: Integração com sensores para dados de solo, clima e produtividade.
-- **Gestão de Estoque**: Controle automatizado de insumos e saídas.
-- **Relatórios e Análises**: Geração de dashboards e exportação de dados.
-- **Interface Intuitiva**: Design responsivo para dispositivos móveis e desktop.
+- **Cadastro de Propriedades e Culturas**: Registro completo das propriedades agrícolas e culturas plantadas.
+- **APIs Automatizadas para Coleta de Dados Meteorológicos**: Integração com fontes externas para obter dados em tempo real sobre clima e condições ambientais.
+- **Relatórios Simples sobre Meteorologia vs Culturas**: Análises comparativas entre dados meteorológicos e desempenho das culturas.
+- **Interface Intuitiva**: Design responsivo para dispositivos móveis e desktop (futuro: integração com sensores IoT para irrigação automatizada).
+
+*Nota: A gestão de estoque ainda não foi implementada.*
 
 ## Tecnologias Utilizadas
 
