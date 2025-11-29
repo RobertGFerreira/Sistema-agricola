@@ -1,0 +1,10 @@
+# Assets Folder
+
+Este diretório é usado para armazenar imagens e recursos visuais do projeto.
+
+## Arquivos esperados:
+- `dashboard_v2.png` - Screenshot do Dashboard em Material 3
+
+Para adicionar imagens:
+1. Faça upload dos arquivos nesta pasta
+2. Atualize as referências no README.md
