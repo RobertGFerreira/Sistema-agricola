@@ -1,60 +1,169 @@
-# Sistema Agrícola – Apresentação
+<div align="center">
 
-Este repositório tem como objetivo apresentar as tecnologias, arquitetura e diferenciais do sistema **Sistema Agrícola**, composto por dois projetos privados: um backend desenvolvido em Python e um frontend em Flutter (Dart). O projeto é uma recriação do trabalho de TCC sobre um sistema de irrigação automatizado baseado em dados meteorológicos.
+# 🌾 AgroIntelligence Platform (Showcase)
 
-## Visão Geral do Sistema
+### *Ecossistema de Gestão Agrícola Digital & Inteligência Artificial*
 
-O **Sistema Agrícola** é uma solução para irrigação automatizada utilizando dados meteorológicos. Ele combina um backend robusto em Python para processamento de dados e APIs de coleta de informações meteorológicas com um frontend moderno em Flutter para interfaces móveis e web responsivas.
+<p>
+  Uma solução <b>Full-Stack Enterprise</b> que integra IoT, Visão Computacional e LLMs <br>
+  para transformar dados brutos do campo em decisões agronômicas precisas.
+</p>
 
-### Principais Funcionalidades
-- **Cadastro de Propriedades e Culturas**: Registro completo das propriedades agrícolas e culturas plantadas.
-- **APIs Automatizadas para Coleta de Dados Meteorológicos**: Integração com fontes externas para obter dados em tempo real sobre clima e condições ambientais.
-- **Relatórios Simples sobre Meteorologia vs Culturas**: Análises comparativas entre dados meteorológicos e desempenho das culturas.
-- **Interface Intuitiva**: Design responsivo para dispositivos móveis e desktop (futuro: integração com sensores IoT para irrigação automatizada).
+<!-- Badges Unificadas Front + Back -->
+<p>
+  <img src="https://img.shields.io/badge/Frontend-Flutter_3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Backend-Python_3.13-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/API-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/AI-Ollama_RAG-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="AI RAG" />
+  <img src="https://img.shields.io/badge/Database-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge&logo=lock&logoColor=white" alt="Proprietary License" />
+</p>
 
-*Nota: A gestão de estoque ainda não foi implementada.*
+<br>
 
-## Tecnologias Utilizadas
+<!-- Link para Demo ou Contato -->
+<a href="https://www.linkedin.com/in/robert-guilherme-ferreira/">
+  <img src="https://img.shields.io/badge/Solicitar_Demo_Técnica-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Solicitar Demo">
+</a>
 
-Com base na composição das linguagens dos repositórios privados:
-
-- **Frontend (Projeto_rual_web)**: Flutter (Dart) – 97.7% do código, com integrações nativas em Swift, C++ e Python para funcionalidades específicas.
-- **Backend (Projeto_rural_python)**: Python – 97.3% do código, com suporte a HTML para templates e outras linguagens auxiliares.
-- **Outras Tecnologias**: C++ para módulos de alta performance, CMake para builds, C para componentes de baixo nível.
-
-## Diferenciais do Sistema
-
-- **Performance Otimizada**: Uso de C++ para algoritmos críticos, garantindo baixa latência mesmo em grandes volumes de dados.
-- **Escalabilidade Horizontal**: Backend em Python com suporte a microsserviços e containerização.
-- **Integração Nativa**: Frontend Flutter com plugins customizados em Swift para iOS e C++ para Android.
-- **Segurança Avançada**: Autenticação robusta, criptografia de dados e compliance com regulamentações agrícolas.
-- **Automação e IA**: Scripts em Python para previsões e automações baseadas em dados históricos.
-
-## Estrutura do Repositório
-
-Este repositório contém:
-- **Documentação Detalhada**: Arquivos em `docs/` explicando arquitetura, tecnologias e diferenciais.
-- **Exemplos de Código**: Trechos práticos de backend e frontend em `exemplos/`.
-- **Imagens Ilustrativas**: Prints e diagramas do sistema em `imagens/` (a serem adicionados posteriormente).
-- **Licença**: Arquivo de licença padrão (MIT sugerido).
-
-## Como Navegar
-
-- [Arquitetura do Sistema](docs/arquitetura.md)
-- [Tecnologias e Ferramentas](docs/tecnologias.md)
-- [Diferenciais Técnicos](docs/diferenciais.md)
-- [Exemplos Práticos](exemplos/)
-
-## Exemplos de Código
-
-Veja trechos reais de implementação em:
-- [Backend Python](exemplos/backend/exemplo_backend.py)
-- [Frontend Dart](exemplos/frontend/exemplo_frontend.dart)
-
-## Contribuição e Contato
-
-Este repositório é uma vitrine das soluções técnicas. Para colaborações ou dúvidas, entre em contato via [seu perfil no GitHub](https://github.com/RobertGFerreira) ou email.
+</div>
 
 ---
 
-*Nota: Os projetos completos (backend e frontend) permanecem privados. Este repositório apresenta apenas as tecnologias, diferenciais e exemplos para fins de demonstração profissional.*
+## 📖 Sobre o Projeto
+
+Este repositório serve como **Vitrine Técnica (Showcase)** para o **Sistema Agrícola**, um software proprietário desenvolvido para digitalizar operações rurais de ponta a ponta.
+
+O sistema resolve a fragmentação tecnológica no campo, unificando gestão de inventário, monitoramento meteorológico e agronomia em uma interface **Flutter (Material 3)** moderna, alimentada por um backend **Python/FastAPI** robusto que utiliza **IA Generativa (RAG)** para consultas contextuais complexas.
+
+> ⚠️ **Aviso Legal:** *Este repositório contém apenas documentação técnica e demonstrações visuais. O código-fonte é **privado e proprietário**. Não é permitida a cópia ou uso sem autorização.*
+
+---
+
+## 📸 Visão Geral da Interface
+
+<!-- 
+🔴 INSTRUÇÃO PARA O AUTOR: 
+Crie uma pasta chamada 'assets' na raiz deste repositório.
+Adicione seus prints com os nomes exatos abaixo:
+1. dashboard_v2.png (Tela principal)
+2. rag_chat.png (Tela do Chatbot respondendo)
+-->
+
+<div align="center">
+  <img src="assets/dashboard_v2.png" alt="Dashboard do Sistema Agrícola em Material 3" width="100%" style="border-radius: 10px; margin-bottom: 20px;">
+  <br>
+  <em>Dashboard responsivo com design system Material 3 e monitoramento em tempo real.</em>
+</div>
+
+---
+
+## 🆕 Changelog: Atualização Recente (v2.0)
+
+A atualização mais recente focou na **Padronização Enterprise** e na introdução de capacidades avançadas de **IA Generativa Contextual**.
+
+### 🧠 Backend & Inteligência Artificial (Python)
+*   **RAG (Retrieval-Augmented Generation):** O sistema agora "conversa" com o banco de dados.
+    *   *Exemplo:* O agrônomo pergunta **"Que dia vou colher no Talhão 3?"** e a IA analisa dados de plantio, ciclo da cultura e meteorologia para responder.
+*   **Módulo de Patologia Agrícola:** Importação massiva de **+3.000 itens** catalogados, incluindo doenças, pragas, ervas daninhas e plantas invasoras.
+*   **Chatbot Integrado:** Assistente virtual nativo para suporte operacional e consultas rápidas.
+*   **Padronização de Código:** Refatoração completa de *Models*, *Controllers* e *Schemas* seguindo Clean Architecture.
+*   **Controle de Acesso Granular:** Preparação da infraestrutura para gestão de permissões por usuário (acesso a abas, recebimento de alertas e uso do Chatbot).
+*   **Automação de Irrigação:** Fundação lógica implementada para controle futuro de pivôs via IoT.
+
+### 🎨 Frontend & UX (Flutter)
+*   **Design System Material 3:** Migração completa da UI, garantindo consistência visual e modernidade.
+*   **Responsividade Total:** Widgets, grids e tipografia ajustados para operar perfeitamente em Desktop, Tablet e Mobile.
+*   **Padronização de Arquitetura:** Refatoração de *Models* e *Controllers* para espelhar a estrutura do Backend.
+*   **UX Refinada:** Uniformização de botões, dropdowns, campos de texto e espaçamentos.
+*   **Tratamento de Erros:** Feedback visual aprimorado para falhas de conexão ou inconsistência de dados (Snackbars inteligentes, Fallbacks visuais).
+
+---
+
+## 🛡️ Destaques Técnicos & Segurança
+
+### Backend (Python 3.13 + FastAPI)
+*   **Arquitetura Limpa:** Separação estrita de responsabilidades (Services, Repositories, Controllers).
+*   **Segurança OWASP:**
+    *   Autenticação JWT Stateless.
+    *   Hashing de senhas com **Bcrypt**.
+    *   Headers de segurança (CSP, HSTS, X-Frame-Options).
+    *   Validação rigorosa de input com **Pydantic v2**.
+*   **Performance:** Stack 100% assíncrona (ASGI) com SQLAlchemy 2.0.
+*   **Type Safety:** Cobertura de tipagem estática validada por **Mypy**.
+
+### Frontend (Flutter 3.x)
+*   **Modularização:** Organização por features (`features/`, `core/`, `shared/`) facilitando a escalabilidade.
+*   **Gerenciamento de Estado:** Uso eficiente de **Provider** (com transição planejada para Riverpod em módulos complexos).
+*   **Observabilidade:** Monitoramento de performance de rotas (`RouteTimingObserver`) e captura de erros centralizada.
+*   **Internacionalização (l10n):** Estrutura pronta para múltiplos idiomas via arquivos ARB.
+
+---
+
+## 🚀 Roadmap e Próximos Passos
+
+O desenvolvimento segue um ritmo acelerado focado na convergência entre **Hardware (IoT)** e **Software**.
+
+### 🚜 Automação e Agricultura
+- [ ] **Cálculo Hídrico de Precisão:** Algoritmos avançados para calcular a lâmina de irrigação exata baseada em evapotranspiração real e estágio da cultura.
+- [ ] **IoT & Pivôs:** Integração final para acionamento e telemetria remota de equipamentos de irrigação.
+- [ ] **Validação de Campo:** Testes de estresse das rotinas de automação em cenário real.
+
+### 🔐 Sistema e Governança
+- [ ] **RBAC Completo:** Finalização da interface para gestão visual de perfis e permissões de usuários.
+- [ ] **Alertas Inteligentes:** Automação de notificações (Push/Email) baseadas em regras configuráveis (ex: "Alertar se umidade do solo < 20%").
+- [ ] **RAG 2.0:** Refinamento do modelo de IA para cruzar dados financeiros com dados agronômicos.
+
+---
+
+## 🛠️ Stack Tecnológica Completa
+
+<div align="center">
+
+| Categoria | Tecnologias Principais | Detalhes |
+| :--- | :--- | :--- |
+| **Mobile/Web** | **Flutter** | Material 3, Provider, Dart 3, Intl |
+| **Backend API** | **Python 3.13** | FastAPI, Uvicorn, Pydantic v2, APScheduler |
+| **Banco de Dados** | **PostgreSQL 15+** | GeoAlchemy2 (Dados Espaciais), Alembic (Migrações) |
+| **IA & LLM** | **Ollama** | Llama 3, Mistral, LangChain, Vector Search (RAG) |
+| **Infra & DevOps** | **Docker** | GitHub Actions, Pytest, Flutter Test, Black/Isort |
+
+</div>
+
+---
+
+## ⛔ Licença e Direitos Autorais (Proprietário)
+
+**Copyright © 2025 Robert Ferreira. Todos os direitos reservados.**
+
+Este projeto é um software **comercial/proprietário**.
+*   ❌ É proibida a cópia, distribuição ou modificação deste código.
+*   ❌ É proibido o uso comercial sem autorização expressa.
+*   ✅ Este repositório serve exclusivamente para fins de portfólio e demonstração técnica.
+
+---
+
+<div align="center">
+
+## 👨‍💻 Autor & Contato
+
+**Robert Ferreira**
+<br>
+*Engenheiro de Software Full-Stack | Especialista em AgTech & IA*
+
+<br>
+
+<a href="https://www.linkedin.com/in/robert-guilherme-ferreira/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:contato.robferreira@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/-Gmail-D14836?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail">
+</a>
+<a href="https://github.com/RobertGFerreira" target="_blank">
+  <img src="https://img.shields.io/badge/-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+
+<br><br>
+<sub>© 2025 Robert Ferreira. Todos os direitos reservados.</sub>
+
+</div>
